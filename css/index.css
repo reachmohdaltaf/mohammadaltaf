@@ -26,6 +26,7 @@ section{
     padding: 1rem 10%;
     min-height: 100vh;
 }
+
 #menu-bars{
     position: fixed;
     top: 1rem; right: 1rem;
@@ -290,14 +291,40 @@ header .follow a:hover{
     
     header{
         left: -120%;
-        transition: 0.5s ease-in-out;
+        transition: 0.4s ease-in-out;
     }
     header.active{
         left: 0%;
         
     }
     
+
+    #menu-bars.fa-times::before{
+    color: rgb(0, 0, 0);
+}
+.home .image img{
+    width: 65%;
+}
+header .logo{
+    text-transform: uppercase;
+    color: white;
+    font-size: 4rem;
+    font-weight: 200;
+    cursor: pointer;
+    letter-spacing: .1rem;
     
+}
+header .logo span{
+    text-transform: uppercase;
+    color: white;
+    font-size: 4rem;
+    font-weight: 100;
+    border: 2px solid #fff;
+    border-radius: 10px 10px;
+    padding: 8px;
+    cursor: pointer;
+    letter-spacing: .1rem;
+}
 }
 /*-------------------Resposive for tabletsdevicex---------------*/
 @media(max-width: 450px){
@@ -308,4 +335,30 @@ header .follow a:hover{
      header{
         width: 100%;
      }
+     .home .image img{
+        width: 65%;
+}
+#menu-bars.fa-times::before{
+    color: rgb(255, 255, 255);
+}
+header .logo{
+    text-transform: uppercase;
+    color: white;
+    font-size: 6rem;
+    font-weight: 200;
+    cursor: pointer;
+    letter-spacing: .1rem;
+    
+}
+header .logo span{
+    text-transform: uppercase;
+    color: white;
+    font-size: 6rem;
+    font-weight: 100;
+    border: 2px solid #fff;
+    border-radius: 10px 10px;
+    padding: 8px;
+    cursor: pointer;
+    letter-spacing: .1rem;
+}
 }
