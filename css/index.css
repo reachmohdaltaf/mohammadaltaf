@@ -34,6 +34,7 @@ section{
     font-size: 4rem;
     cursor: pointer;
     display: none;
+    transition: 1s;
     
     
 
@@ -336,7 +337,9 @@ header .logo span{
         width: 100%;
      }
      .home .image img{
-        width: 65%;
+        width: 90%;
+        
+        
 }
 #menu-bars.fa-times::before{
     color: rgb(255, 255, 255);
