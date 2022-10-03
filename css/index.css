@@ -306,26 +306,7 @@ header .follow a:hover{
 .home .image img{
     width: 65%;
 }
-header .logo{
-    text-transform: uppercase;
-    color: white;
-    font-size: 4rem;
-    font-weight: 200;
-    cursor: pointer;
-    letter-spacing: .1rem;
-    
-}
-header .logo span{
-    text-transform: uppercase;
-    color: white;
-    font-size: 4rem;
-    font-weight: 100;
-    border: 2px solid #fff;
-    border-radius: 10px 10px;
-    padding: 8px;
-    cursor: pointer;
-    letter-spacing: .1rem;
-}
+
 }
 /*-------------------Resposive for tabletsdevicex---------------*/
 @media(max-width: 450px){
@@ -343,26 +324,6 @@ header .logo span{
 }
 #menu-bars.fa-times::before{
     color: rgb(255, 255, 255);
-}
-header .logo{
-    text-transform: uppercase;
-    color: white;
-    font-size: 6rem;
-    font-weight: 200;
-    cursor: pointer;
-    letter-spacing: .1rem;
-    
-}
-header .logo span{
-    text-transform: uppercase;
-    color: white;
-    font-size: 6rem;
-    font-weight: 100;
-    border: 2px solid #fff;
-    border-radius: 10px 10px;
-    padding: 8px;
-    cursor: pointer;
-    letter-spacing: .1rem;
 }
 
 }
