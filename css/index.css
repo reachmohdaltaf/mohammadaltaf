@@ -277,6 +277,31 @@ header .follow a:hover{
     font-family: 'Open Sans Condensed',sans-serif;
     
 }
+
+
+
+.contact .icon-container{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.contact .icon-container .icon{
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    box-shadow: 0 .5rem 1rem;
+    flex: 1 1 25rem;
+
+}
+.contact .icon-container .icon i{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background: black;
+    color: white;
+    border-radius: 50%;
+}
 /*-------------------Resposive for tabletsdevicex---------------*/
 @media(max-width: 990px) {
     html{
